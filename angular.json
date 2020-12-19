@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "personal-portfoli-angular": {
+    "personal-portfolio-angular": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/personal-portfoli-angular",
+            "outputPath": "dist/personal-portfolio-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -67,18 +67,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "personal-portfoli-angular:build"
+            "browserTarget": "personal-portfolio-angular:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "personal-portfoli-angular:build:production"
+              "browserTarget": "personal-portfolio-angular:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "personal-portfoli-angular:build"
+            "browserTarget": "personal-portfolio-angular:build"
           }
         },
         "test": {
@@ -115,15 +115,25 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "personal-portfoli-angular:serve"
+            "devServerTarget": "personal-portfolio-angular:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "personal-portfoli-angular:serve:production"
+              "devServerTarget": "personal-portfolio-angular:serve:production"
             }
+          }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options":{
+            "baseHref": "https://dmcmeekan9.github.io/",
+            "branch": "gh-pages",
+            "name": "Dennis McMeekan",
+            "email": "dennismcmeekan@gmail.com",
+            "noSilent": true
           }
         }
       }
     }},
-  "defaultProject": "personal-portfoli-angular"
+  "defaultProject": "personal-portfolio-angular"
 }
