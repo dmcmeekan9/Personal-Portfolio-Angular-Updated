@@ -1354,11 +1354,11 @@ small {
 }
 
 a {
-  color: #378C3F;
+  color: #0510a0;
 }
 
 a:hover, a:focus {
-  color: #378C3F;
+  color: #0510a0;
 }
 
 h1, .h1 {
@@ -1571,7 +1571,7 @@ body {
 
 .nav-pills.nav-pills-neutral .nav-item .nav-link.active, .nav-pills.nav-pills-neutral .nav-item .nav-link.active:focus, .nav-pills.nav-pills-neutral .nav-item .nav-link.active:hover {
   background-color: #FFFFFF;
-  color: #378C3F;
+  color: #0510a0;
 }
 
 .nav-pills.nav-pills-primary .nav-item .nav-link.active, .nav-pills.nav-pills-primary .nav-item .nav-link.active:focus, .nav-pills.nav-pills-primary .nav-item .nav-link.active:hover {
@@ -1688,8 +1688,8 @@ body {
 }
 
 .nav-tabs.nav-tabs-primary > .nav-item > .nav-link.active {
-  border-color: #378C3F;
-  color: #378C3F;
+  border-color: #0510a0;
+  color: #0510a0;
 }
 
 .nav-tabs.nav-tabs-info > .nav-item > .nav-link.active {
@@ -1953,11 +1953,11 @@ body {
 }
 
 .dropdown-menu.dropdown-primary {
-  background-color: #33813a;
+  background-color: #0510a0;
 }
 
 .dropdown-menu.dropdown-primary:before {
-  color: #33813a;
+  color: #0510a0;
 }
 
 .dropdown-menu.dropdown-primary .dropdown-header:not([href]):not([tabindex]) {
@@ -2213,7 +2213,7 @@ img {
 }
 
 .popover.popover-primary {
-  background-color: #378C3F;
+  background-color: #0510a0;
 }
 
 .popover.popover-primary .popover-body {
@@ -2221,19 +2221,19 @@ img {
 }
 
 .popover.popover-primary.bs-popover-right .arrow:after {
-  border-right-color: #378C3F;
+  border-right-color: #0510a0;
 }
 
 .popover.popover-primary.bs-popover-top .arrow:after {
-  border-top-color: #378C3F;
+  border-top-color: #0510a0;
 }
 
 .popover.popover-primary.bs-popover-bottom .arrow:after {
-  border-bottom-color: #378C3F;
+  border-bottom-color: #0510a0;
 }
 
 .popover.popover-primary.bs-popover-left .arrow:after {
-  border-left-color: #378C3F;
+  border-left-color: #0510a0;
 }
 
 .popover.popover-primary .popover-header {
@@ -2968,7 +2968,7 @@ img {
 }
 
 .modal.modal-mini .modal-profile i {
-  color: #378C3F;
+  color: #0510a0;
   font-size: 21px;
 }
 
@@ -2977,7 +2977,7 @@ img {
 }
 
 .modal.modal-mini .modal-profile.modal-profile-primary {
-  background-color: #378C3F;
+  background-color: #0510a0;
 }
 
 .modal.modal-mini .modal-profile.modal-profile-danger {
@@ -3014,7 +3014,7 @@ img {
 }
 
 .modal.modal-primary .modal-content {
-  background-color: #378C3F;
+  background-color: #0510a0;
   color: #FFFFFF;
 }
 
@@ -3393,13 +3393,13 @@ img {
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
   .sidebar-collapse .navbar-collapse:before {
-    background: #378C3F;
+    background: #0510a0;
     /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: -webkit-gradient(linear, left top, left bottom, from(#378C3F), color-stop(80%, #000));
-    background: linear-gradient(#378C3F 0%, #000 80%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#0510a0), color-stop(80%, #000));
+    background: linear-gradient(#0510a0 0%, #000 80%);
     /* Standard syntax (must be last) */
     opacity: 0.76;
     filter: alpha(opacity=76);
@@ -4104,13 +4104,13 @@ img {
     transition: all 0.5s cubic-bezier(0.685, 0.0473, 0.346, 1);
   }
   .burger-menu .navbar-collapse:before {
-    background: #378C3F;
+    background: #0510a0;
     /* For browsers that do not support gradients */
     /* For Safari 5.1 to 6.0 */
     /* For Opera 11.1 to 12.0 */
     /* For Firefox 3.6 to 15 */
-    background: -webkit-gradient(linear, left top, left bottom, from(#378C3F), color-stop(80%, #000));
-    background: linear-gradient(#378C3F 0%, #000 80%);
+    background: -webkit-gradient(linear, left top, left bottom, from(#0510a0), color-stop(80%, #000));
+    background: linear-gradient(#0510a0 0%, #000 80%);
     /* Standard syntax (must be last) */
     opacity: 0.76;
     filter: alpha(opacity=76);
@@ -4819,8 +4819,8 @@ img {
   /* For Safari 5.1 to 6.0 */
   /* For Opera 11.1 to 12.0 */
   /* For Firefox 3.6 to 15 */
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(55, 140, 63, 0.6)));
-  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(55, 140, 63, 0.6));
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(44, 44, 44, 0.2)), to(rgba(66, 15, 118, 0.6)));
+  background: linear-gradient(0deg, rgba(44, 44, 44, 0.2), rgba(66, 15, 118, 0.6));
   /* Standard syntax */
 }
 
@@ -4866,7 +4866,7 @@ img {
 
 .cc-profile-image a:before {
   content: "";
-  border: 15px solid rgba(55, 140, 63, 0.6);
+  border: 15px solid rgba(19, 47, 206, 0.6);
   border-radius: 50%;
   height: 180px;
   width: 180px;
