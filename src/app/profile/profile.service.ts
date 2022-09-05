@@ -17,7 +17,7 @@ export class ProfileService {
     {
       'id': '1',
       'skill': 'Java',
-      'progress': '95%'
+      'progress': '90%'
     },
     {
       'id': '2',
